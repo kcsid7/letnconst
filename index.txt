@@ -1,0 +1,16 @@
+const PI = 3.14;
+PI = 40 // Error!
+
+
+Difference between var and let: 
+    let is used in a block scope. let does not allow the variable to be redeclared but can be reassigned. var allows the value to be reassigned and redeclared. 
+
+Difference between var and const:
+    const is used in a block scope. const does not allow the variable to be redeclared or reassigned. var allows the value to be reassigned and redeclared. 
+
+Difference between let and const:
+    let can be reassigned but const does not allow the variable to be redeclared or reassigned. 
+
+Hoisting:
+    Hoisting is a process where the interpreter moves the declared functions, variables or classes to the top of the scope before the code is executed. For variables in javascript, only variable declarations are hoisted, not initializations. 
+
